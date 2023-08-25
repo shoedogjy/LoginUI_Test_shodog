@@ -14,13 +14,38 @@
         android:gravity="center" >
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
             android:src="@drawable/emart_traders2"
             android:scaleType="centerInside" />
 
 
+
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오늘의 할인정보 확인하기"
+        android:layout_marginTop="25dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
 
-</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="매주 월요일 업데이트 됩니다."
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_gravity="center"/>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tradersBasket_1"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:scaleType="centerInside"
+            />
+
